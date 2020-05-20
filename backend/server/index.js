@@ -53,22 +53,6 @@ app.use('/create', (req, res) => {
         });
 });
 
-// router.route('/create').post((req, res) => {
-//     var note = new Note(req.body);
-//     note.save().then(note => {
-//             res.status(200).json({ 'message': 'Todo successfully added ' });
-//         })
-//         .catch(err => {
-//             res.status(400).send("Error when saving to database");
-//         });
-// });
-
-// router.route('/delete').get((req, res) => {
-//     Note.findByIdAndRemove({ name: req.body._id }, (err, todo) => {
-//         if (err) res.json(err);
-//         else res.json('Todo successfully removed');
-//     });
-// });
 
 app.use('/delete', (req, res) => {
     Note.findByIdAndRemove({ _id: req.body._id }, (err, noteres) => {
@@ -180,21 +164,6 @@ app.use('/', (req, res) => {
     res.send('hello');
 });
 
-
-
-// router.route('/notes/:id').get((req, res) => {
-//     var id = req.params.id;
-//     Note.findById(id, (err, note) => {
-//         res.json(note);
-//     });
-// });
-
-// router.route('/notes/:id').get((req, res) => {
-//     Note.findByIdAndRemove({ _id: req.params.id }, (err, note) => {
-//         if (err) res.json(err);
-//         else res.json('Todo successfully removed');
-//     });
-// });
 
 
 const port = process.env.PORT || 5000;
