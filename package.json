@@ -1,0 +1,23 @@
+{
+  "name": "diary",
+  "version": "1.0.0",
+  "description": "This is an Orginizer web app built with VueJS with the non-commercial purposes of extending portfolio.",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaterinaKhleb/organizer-vue-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaterinaKhleb/organizer-vue-app/issues"
+  },
+  "homepage": "https://github.com/KaterinaKhleb/organizer-vue-app#readme"
+}
