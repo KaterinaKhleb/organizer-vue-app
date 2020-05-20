@@ -1,2 +1,4 @@
-web: chmod +x start_prod.sh
-web: ./start_prod.sh
+web: cd frontend 
+web: npm run build &
+web: cd ../backend
+web: npm run start
