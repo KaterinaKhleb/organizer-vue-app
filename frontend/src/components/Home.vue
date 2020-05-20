@@ -69,7 +69,7 @@
         </div>
 
         <div class="main-half notes-half">
-             <h2>Arrange your pinned notes by dragging:</h2>
+             <h2>Your the most important notes:</h2>
                 <!-- <p v-if="pinnedNotes.length==0" class="pinned-empty">No pinned notes so far.</p> -->
 
            <div class="notes-lists" >
